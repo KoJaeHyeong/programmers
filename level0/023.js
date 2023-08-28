@@ -34,7 +34,6 @@ function solution(a, d, included) {
   var answer = 0;
   let equalList = new Array();
   equalList[0] = a;
-  console.log(equalList);
   let init = a;
 
   for (let i = 0; i < included.length; i++) {
